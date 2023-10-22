@@ -6,7 +6,11 @@ This documentation presents our room and machine management application, a power
 
 ## Demo Video
 
-https://github.com/trotinat/Room-Machine-Management/assets/105166255/2b570fab-e984-4a74-90b1-5cdeb9daa862
+
+
+https://github.com/trotinat/Room-Machine-Management/assets/105166255/1e1d109d-c868-48bf-bb41-6189136dbb26
+
+
 
 ## ScreenShots 
 
