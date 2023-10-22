@@ -133,6 +133,7 @@ public class MachineForm extends javax.swing.JInternalFrame {
         setMaximizable(true);
         setResizable(true);
         setTitle("G Machines");
+        setFrameIcon(new javax.swing.ImageIcon("C:\\Users\\Trotinat\\Documents\\microservices\\ClientG4\\src\\assets\\logiciel.png")); // NOI18N
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Informations machine"));
@@ -415,8 +416,8 @@ public class MachineForm extends javax.swing.JInternalFrame {
         try {
             machineToDelete=dao.findById(machineID);
             
-            txtRef.setText(machineToDelete.getMarque());
-            txtMarque.setText(machineToDelete.getRef());
+            txtRef.setText(machineToDelete.getRef());
+            txtMarque.setText(machineToDelete.getMarque());
             txtPrix.setText(String.valueOf(machineToDelete.getPrix()));
             listSalles.setSelectedIndex(machineToDelete.getSalle().getId()-1);
 

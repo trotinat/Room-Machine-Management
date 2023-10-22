@@ -32,12 +32,12 @@ public class ServeurG4 {
         try {
             IDao<Machine> dao = new  MachineService();
        // dao.create(new Machine("RE855","Toshiba",2000));
-            LocateRegistry.createRegistry(1999);
+            LocateRegistry.createRegistry(1989);
   
-            Naming.bind("rmi://localhost:1999/dao", dao);
+            Naming.bind("rmi://localhost:1989/dao", dao);
             
              IDao<Salle> daoSalle =  new SalleService();
-            Naming.bind("rmi://localhost:1999/salleService", daoSalle);
+            Naming.bind("rmi://localhost:1989/salleService", daoSalle);
 
             
             System.out.println("En attente d'un client ");

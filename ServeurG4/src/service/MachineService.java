@@ -128,7 +128,22 @@ public class MachineService extends UnicastRemoteObject implements IDao<Machine>
 
     @Override
     public List<Machine> findMachinesBySalle(Salle s) throws RemoteException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+         Session session = null;
+        Transaction tx = null;
+        List<Machine> machines = null;
+        try {
+            session = HibernateUtil.getSessionFactory().openSession();
+            tx = session.beginTransaction();
+            machines  = session.getNamedQuery("findMachinesBySalle").setParameter("idSalle", s).list();
+            tx.commit();
+        } catch (HibernateException ex) {
+            if(tx != null)
+                tx.rollback();
+        }finally {
+            if(session != null)
+                session.close();
+        }
+        return machines;
     }
 
 }

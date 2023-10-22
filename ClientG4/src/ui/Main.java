@@ -42,6 +42,7 @@ public class Main extends javax.swing.JFrame {
         copyMenuItem = new javax.swing.JMenuItem();
         pasteMenuItem = new javax.swing.JMenuItem();
         deleteMenuItem = new javax.swing.JMenuItem();
+        jMenuItem1 = new javax.swing.JMenuItem();
         helpMenu = new javax.swing.JMenu();
         contentMenuItem = new javax.swing.JMenuItem();
         aboutMenuItem = new javax.swing.JMenuItem();
@@ -107,6 +108,14 @@ public class Main extends javax.swing.JFrame {
         deleteMenuItem.setText("Delete");
         editMenu.add(deleteMenuItem);
 
+        jMenuItem1.setText("Machines /Salle");
+        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem1ActionPerformed(evt);
+            }
+        });
+        editMenu.add(jMenuItem1);
+
         menuBar.add(editMenu);
 
         helpMenu.setMnemonic('h');
@@ -156,6 +165,13 @@ public class Main extends javax.swing.JFrame {
         sf.show();
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
+    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+        // TODO add your handling code here:
+         MachineSalle mmf = new MachineSalle();
+        desktopPane.add(mmf);
+        mmf.show();
+    }//GEN-LAST:event_jMenuItem1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -201,6 +217,7 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JMenuItem exitMenuItem;
     private javax.swing.JMenu fileMenu;
     private javax.swing.JMenu helpMenu;
+    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem machineMenuItem;
     private javax.swing.JMenuBar menuBar;
