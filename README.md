@@ -6,8 +6,7 @@ This documentation presents our room and machine management application, a power
 
 ## Demo Video
 
-https://github.com/trotinat/Room-Machine-Management/assets/105166255/31916d05-dd25-49e6-a331-891ef476b188
-
+https://github.com/trotinat/Room-Machine-Management/assets/105166255/2b570fab-e984-4a74-90b1-5cdeb9daa862
 
 ## ScreenShots 
 
@@ -49,3 +48,58 @@ These technologies play key roles in the development of your application, provid
 ## Authors
 
 - [@Houssam Haraf](https://github.com/trotinat)
+
+### Frensh Version :
+
+# Application de Gestion des Salles et des Machines
+
+## Introduction
+
+Cette documentation présente notre application de gestion des salles et des machines, un outil puissant pour suivre et gérer efficacement les ressources dans votre environnement. L'application est conçue pour aider les utilisateurs à organiser, attribuer et gérer les machines dans différentes salles. Elle utilise les technologies suivantes : Java, Hibernate, Java Swing, MySQL et le concept de RMI (Remote Method Invocation).
+
+## Vidéo de Démo
+
+https://github.com/trotinat/Room-Machine-Management/assets/105166255/2b570fab-e984-4a74-90b1-5cdeb9daa862
+
+**Cliquez sur l'image ci-dessus pour regarder une démo de notre application.** Cette vidéo vous guidera à travers les principales fonctionnalités de l'application, vous montrant comment utiliser l'interface utilisateur, gérer les machines et les salles, ainsi que d'autres fonctionnalités clés.
+
+## Captures d'écran
+
+![Capture d'écran 2023-10-22 021325](https://github.com/trotinat/Room-Machine-Management/assets/105166255/376be415-2689-4a38-8183-beb784e37833)
+
+![Capture d'écran 2023-10-22 021406](https://github.com/trotinat/Room-Machine-Management/assets/105166255/73518a35-fbb8-4eb3-b8ea-3825c741ad2b)
+
+## Caractéristiques Spéciales
+
+Notre application de gestion des salles et des machines offre plusieurs fonctionnalités qui la rendent spéciale :
+
+1. **Interface Utilisateur Conviviale :** Nous avons conçu une interface utilisateur conviviale basée sur Java Swing, offrant une expérience utilisateur intuitive.
+
+2. **Base de Données Robuste :** La base de données MySQL stocke de manière fiable toutes les informations sur les salles, les machines et leurs attributions.
+
+3. **Gestion des Machines et des Salles :** L'application permet de créer, modifier, supprimer et attribuer des machines aux salles en quelques clics.
+
+4. **Hibernate pour la Persistance :** Nous utilisons Hibernate pour gérer la persistance des données, facilitant ainsi le stockage et la récupération des informations de manière efficace.
+
+5. **Communication à Distance (RMI) :** Le concept RMI est utilisé pour permettre une communication sécurisée entre différents composants de l'application, offrant une expérience utilisateur fluide et un accès à distance.
+
+6. **Personnalisable :** Notre application peut être personnalisée pour répondre aux besoins spécifiques de votre organisation.
+
+### Technologies Utilisées
+
+- **Java :** Java est un langage de programmation polyvalent et orienté objet largement utilisé pour le développement d'applications de bureau, web et mobile.
+
+- **Hibernate :** Hibernate est un framework de persistance open source pour Java qui simplifie la gestion des données persistantes dans une base de données relationnelle.
+
+- **Java Swing :** Java Swing est une bibliothèque graphique pour le développement d'interfaces utilisateur (UI) en Java, permettant la création d'interfaces graphiques interactives pour les applications de bureau.
+
+- **MySQL :** MySQL est un système de gestion de base de données relationnelle open source largement utilisé pour stocker et gérer les données.
+
+- **RMI (Remote Method Invocation) :** RMI est une technologie Java permettant la communication entre différentes machines Java, généralement utilisée pour les applications distribuées.
+
+Ces technologies jouent des rôles clés dans le développement de votre application, en offrant des fonctionnalités telles que la gestion de la base de données, la création de l'interface utilisateur, la communication à distance et la simplification de la persistance des données. Elles contribuent à la robustesse et à la convivialité de votre application de gestion des salles et des machines.
+
+## Auteurs
+
+- [@Houssam Haraf](https://github.com/trotinat)
+
