@@ -14,9 +14,12 @@ https://github.com/trotinat/Room-Machine-Management/assets/105166255/1e1d109d-c8
 
 ## ScreenShots 
 
-![Capture d'écran 2023-10-22 021325](https://github.com/trotinat/Room-Machine-Management/assets/105166255/376be415-2689-4a38-8183-beb784e37833)
+![Capture d'écran 2023-10-22 041849](https://github.com/trotinat/Room-Machine-Management/assets/105166255/6c49e7b9-ed6d-4456-bdcb-7def6d827d8c)
+![Capture d'écran 2023-10-22 041728](https://github.com/trotinat/Room-Machine-Management/assets/105166255/7c127242-fc37-4d59-a413-9974c8ec0754)
+![Capture d'écran 2023-10-22 041740](https://github.com/trotinat/Room-Machine-Management/assets/105166255/5d0e1eb1-7ac5-4a9d-a611-44e7b7fcc2ce)
+![Capture d'écran 2023-10-22 041804](https://github.com/trotinat/Room-Machine-Management/assets/105166255/e843eba9-bd01-4669-9eb2-b22fa4972d10)
 
-![Capture d'écran 2023-10-22 021406](https://github.com/trotinat/Room-Machine-Management/assets/105166255/73518a35-fbb8-4eb3-b8ea-3825c741ad2b)
+
 
 ## Special Features
 
